@@ -67,7 +67,7 @@ test("home contains both works and exposes separate project and external links",
   assert.match(html, /data-project="tmviewer"/);
   assert.match(html, /href="\/projects\/jigeqiu\/"/);
   assert.match(html, /href="\/projects\/tmviewer\/"/);
-  assert.match(html, /href="https:\/\/jigeqiu.com\/"/);
+  assert.match(html, /href="https:\/\/jiawulin.github.io\/jigeqiu\/"/);
   assert.doesNotMatch(html, /<a\b[^>]*>(?:(?!<\/a>)[\s\S])*<a\b/);
 });
 
